@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require('express');
 
 // We create our own server named app
@@ -15,4 +17,4 @@ app.get('/cat', (request, response, next) => response.sendFile(__dirname + '/vie
 
 // ... the previously added code
 // Server Started
-app.listen(3000, () => console.log('My first app listening on port 3000! '));
+app.listen(process.env.PORT, () => console.log(`My first app listening on port ${process.env.PORT}!`));
