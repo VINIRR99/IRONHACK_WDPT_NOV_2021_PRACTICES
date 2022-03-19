@@ -22,3 +22,6 @@
 [submodule "MODULE_3/LABS/lab-mongoose-recipes"]
 	path = MODULE_3/LABS/lab-mongoose-recipes
 	url = https://github.com/VINIRR99/lab-mongoose-recipes.git
+[submodule "MODULE_1/LABS/lab-css-spotify-clone"]
+	path = MODULE_1/LABS/lab-css-spotify-clone
+	url = https://github.com/VINIRR99/lab-css-spotify-clone.git
